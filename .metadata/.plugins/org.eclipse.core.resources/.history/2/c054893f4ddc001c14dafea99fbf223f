@@ -1,0 +1,5 @@
+package com.fb.facebookclone.entity;
+
+public class PostEntity {
+
+}

@@ -1,0 +1,9 @@
+package com.fb.facebookclone.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fb.facebookclone.entity.PostEntity;
+
+public interface PostEntityRepository extends JpaRepository<PostEntity, Long>{
+
+}

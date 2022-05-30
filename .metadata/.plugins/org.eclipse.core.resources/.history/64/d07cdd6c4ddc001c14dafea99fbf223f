@@ -1,0 +1,13 @@
+package com.fb.facebookclone.entity;
+
+public class PostEntity {
+private String id;
+private String post;
+private String name;
+private String email;
+private String image;
+private String profilePic;
+private String id;
+
+
+}

@@ -1,0 +1,27 @@
+package com.fb.facebookclone.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name="posts")
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class PostEntity {
+private String id;
+private String post;
+private String name;
+private String email;
+private String image;
+private String profilePic;
+private String timestamp;
+
+
+}

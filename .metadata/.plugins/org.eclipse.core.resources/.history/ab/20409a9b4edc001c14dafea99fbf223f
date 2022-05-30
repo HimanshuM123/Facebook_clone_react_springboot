@@ -1,0 +1,5 @@
+package com.fb.facebookclone.controller;
+
+public class PostController {
+
+}

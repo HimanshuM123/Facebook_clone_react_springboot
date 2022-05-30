@@ -1,0 +1,16 @@
+package com.fb.facebookclone.service;
+
+import org.springframework.stereotype.Service;
+
+import com.fb.facebookclone.model.Post;
+
+@Service
+public class PostServiceImpl implements PostService {
+
+	@Override
+	public Post addPost(Post post) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

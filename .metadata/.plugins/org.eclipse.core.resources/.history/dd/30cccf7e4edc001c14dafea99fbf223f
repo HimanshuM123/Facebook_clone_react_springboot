@@ -1,0 +1,5 @@
+package com.fb.facebookclone.service;
+
+public class PostServiceImpl {
+
+}

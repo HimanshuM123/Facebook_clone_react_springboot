@@ -1,0 +1,2 @@
+spring.servlet.multipart.enabled= true
+spring.servlet.multipart.file-size-threshold= 2kb

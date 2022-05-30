@@ -1,0 +1,24 @@
+package com.fb.facebookclone.service;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Service;
+
+import com.fb.facebookclone.entity.PostEntity;
+import com.fb.facebookclone.model.Post;
+
+@Service
+public class PostServiceImpl implements PostService {
+
+	@Override
+	public Post addPost(Post post) {
+		try {
+			PostEntity postEntity = new PostEntity();
+			BeanUtils.copyProperties(post, postEntity);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return null;
+	}
+
+}

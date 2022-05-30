@@ -1,0 +1,9 @@
+package com.fb.facebookclone.service;
+
+import com.fb.facebookclone.model.Post;
+
+public interface PostService {
+
+	Post addPost(Post post);
+
+}
