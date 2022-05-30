@@ -40,5 +40,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 5. npm install axios
 6. npm install react-redux
 7. npm install @reduxjs/toolkit
-
-2.43
